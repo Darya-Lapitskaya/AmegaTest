@@ -1,2 +1,2 @@
 # AmegaTest
-AmegaTest
+npm test - run Cypress
