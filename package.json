@@ -10,5 +10,8 @@
   "description": "",
   "devDependencies": {
     "cypress": "^13.14.1"
+  },
+  "dependencies": {
+    "chai-json-schema": "^1.5.1"
   }
 }
