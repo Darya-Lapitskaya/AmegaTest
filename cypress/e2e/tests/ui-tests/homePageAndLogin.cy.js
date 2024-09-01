@@ -7,8 +7,7 @@ const url = 'https://www.amega.finance/'
 describe("home page", () => {
 
   beforeEach(() => {
-    //cy.viewport(1920, 1080);
-    cy.visit(url)
+    cy.visit();
   })
 
 
@@ -43,48 +42,7 @@ describe("home page", () => {
     cy.get('input[name="password"]').type('$Admin93');
     cy.get('input[data-testid="test-submit"]').click();
     cy.url().should('eq', 'https://client.amega.finance/');
-    //cy.getAllSessionStorage();
- 
+
     }); 
-   // add crear session after all cy.clearAllSessionStorage();
-   //cy.clearAllSessionStorage();
-  
-
-    
 
   })
-
-  
-
-
-  /*
-
-  it("navigate to each page", () => {
-    cy.get("sc-9007b1a1-1 dvzNQS").should.be
-  })
-
-
-  it("sign in if logged in", () => {
-    cy.get("sc-9007b1a1-1 dvzNQS").should.be
-  })
-
-
-  it("sign in if logged out", () => {
-    cy.get("sc-9007b1a1-1 dvzNQS").should.be
-  })
-
-
-  it("click tabs in client app", () => {
-    cy.get("sc-9007b1a1-1 dvzNQS").should.be
-  })
-
-  it("show cashback previous week", () => {
-    cy.get("sc-9007b1a1-1 dvzNQS").should.be
-  })
-
-
-  it("sign out", () => {
-    cy.get("sc-9007b1a1-1 dvzNQS").should.be
-  })
-    */
-
