@@ -54,7 +54,6 @@ describe("Client api", () => {
     }).then((resp) => {
 
       expect(resp.status).to.eq(200);
-
       expect(resp.body).to.be.jsonSchema(profileJsonSchema);
 
     })
