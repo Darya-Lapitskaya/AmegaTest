@@ -1,6 +1,6 @@
-const profileJsonSchema = 
+const profileJsonSchema =
 {
-  
+
   "type": "object",
   "properties": {
     "id": {
